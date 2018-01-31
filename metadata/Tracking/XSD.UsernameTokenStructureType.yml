@@ -1,0 +1,18 @@
+TNTExpressConnect\Tracking\XSD\UsernameTokenStructureType:
+    properties:
+        username:
+            expose: true
+            access_type: public_method
+            serialized_name: Username
+            accessor:
+                getter: getUsername
+                setter: setUsername
+            type: string
+        password:
+            expose: true
+            access_type: public_method
+            serialized_name: Password
+            accessor:
+                getter: getPassword
+                setter: setPassword
+            type: TNTExpressConnect\Tracking\XSD\UsernameTokenStructureType\PasswordAType

@@ -1,0 +1,50 @@
+TNTExpressConnect\Price\XSD\ChargeElementType:
+    properties:
+        chargeItem:
+            expose: true
+            access_type: public_method
+            serialized_name: chargeItem
+            accessor:
+                getter: getChargeItem
+                setter: setChargeItem
+            type: integer
+        chargeCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: chargeCategory
+            accessor:
+                getter: getChargeCategory
+                setter: setChargeCategory
+            type: string
+        chargeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: chargeCode
+            accessor:
+                getter: getChargeCode
+                setter: setChargeCode
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        chargeValue:
+            expose: true
+            access_type: public_method
+            serialized_name: chargeValue
+            accessor:
+                getter: getChargeValue
+                setter: setChargeValue
+            type: float
+        vatIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: vatIndicator
+            accessor:
+                getter: getVatIndicator
+                setter: setVatIndicator
+            type: boolean

@@ -1,0 +1,29 @@
+{
+    "name": "sevavietl/tnt",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "goetas-webservices/xsd2php-runtime":"^0.2.2"
+    },
+    "require-dev": {
+        "goetas-webservices/xsd2php":"^0.3",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "TNTExpressConnect\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TNTExpressConnect\\Test\\Unit\\": "tests/unit/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vsevolod Vietluzhskykh",
+            "email": "sevavietl@gmail.com"
+        }
+    ]
+}

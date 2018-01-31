@@ -1,0 +1,29 @@
+TNTExpressConnect\Price\XSD\RatedServicesType:
+    properties:
+        rateId:
+            expose: true
+            access_type: public_method
+            serialized_name: rateId
+            accessor:
+                getter: getRateId
+                setter: setRateId
+            type: string
+        currency:
+            expose: true
+            access_type: public_method
+            serialized_name: currency
+            accessor:
+                getter: getCurrency
+                setter: setCurrency
+            type: string
+        ratedService:
+            expose: true
+            access_type: public_method
+            serialized_name: ratedService
+            accessor:
+                getter: getRatedService
+                setter: setRatedService
+            xml_list:
+                inline: true
+                entry_name: ratedService
+            type: array<TNTExpressConnect\Price\XSD\RatedServiceType>

@@ -1,0 +1,48 @@
+TNTExpressConnect\Price\XSD\ProductType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            type: string
+        division:
+            expose: true
+            access_type: public_method
+            serialized_name: division
+            accessor:
+                getter: getDivision
+                setter: setDivision
+            type: string
+        productDesc:
+            expose: true
+            access_type: public_method
+            serialized_name: productDesc
+            accessor:
+                getter: getProductDesc
+                setter: setProductDesc
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+            xml_element:
+                cdata: false
+        options:
+            expose: true
+            access_type: public_method
+            serialized_name: options
+            accessor:
+                getter: getOptions
+                setter: setOptions
+            type: array<TNTExpressConnect\Price\XSD\OptionType>
+            xml_list:
+                inline: false
+                entry_name: option
+                skip_when_empty: true

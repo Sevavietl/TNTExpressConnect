@@ -1,0 +1,32 @@
+TNTExpressConnect\Price\XSD\PriceRequest:
+    xml_root_name: priceRequest
+    properties:
+        appId:
+            expose: true
+            access_type: public_method
+            serialized_name: appId
+            accessor:
+                getter: getAppId
+                setter: setAppId
+            type: string
+            xml_element:
+                cdata: false
+        appVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: appVersion
+            accessor:
+                getter: getAppVersion
+                setter: setAppVersion
+            type: float
+        priceCheck:
+            expose: true
+            access_type: public_method
+            serialized_name: priceCheck
+            accessor:
+                getter: getPriceCheck
+                setter: setPriceCheck
+            xml_list:
+                inline: true
+                entry_name: priceCheck
+            type: array<TNTExpressConnect\Price\XSD\PriceCheck>

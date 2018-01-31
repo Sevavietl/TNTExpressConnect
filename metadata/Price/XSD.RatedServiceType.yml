@@ -1,0 +1,46 @@
+TNTExpressConnect\Price\XSD\RatedServiceType:
+    properties:
+        product:
+            expose: true
+            access_type: public_method
+            serialized_name: product
+            accessor:
+                getter: getProduct
+                setter: setProduct
+            type: TNTExpressConnect\Price\XSD\ProductType
+        totalPrice:
+            expose: true
+            access_type: public_method
+            serialized_name: totalPrice
+            accessor:
+                getter: getTotalPrice
+                setter: setTotalPrice
+            type: float
+        totalPriceExclVat:
+            expose: true
+            access_type: public_method
+            serialized_name: totalPriceExclVat
+            accessor:
+                getter: getTotalPriceExclVat
+                setter: setTotalPriceExclVat
+            type: float
+        vatAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: vatAmount
+            accessor:
+                getter: getVatAmount
+                setter: setVatAmount
+            type: float
+        chargeElements:
+            expose: true
+            access_type: public_method
+            serialized_name: chargeElements
+            accessor:
+                getter: getChargeElements
+                setter: setChargeElements
+            type: array<TNTExpressConnect\Price\XSD\ChargeElementType>
+            xml_list:
+                inline: false
+                entry_name: chargeElement
+                skip_when_empty: false

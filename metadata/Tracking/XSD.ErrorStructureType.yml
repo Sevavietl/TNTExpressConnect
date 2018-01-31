@@ -1,0 +1,24 @@
+TNTExpressConnect\Tracking\XSD\ErrorStructureType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            accessor:
+                getter: getCode
+                setter: setCode
+            xml_list:
+                inline: true
+                entry_name: Code
+            type: array<integer>
+        message:
+            expose: true
+            access_type: public_method
+            serialized_name: Message
+            accessor:
+                getter: getMessage
+                setter: setMessage
+            xml_list:
+                inline: true
+                entry_name: Message
+            type: array<string>

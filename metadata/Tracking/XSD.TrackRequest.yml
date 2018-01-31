@@ -1,0 +1,37 @@
+TNTExpressConnect\Tracking\XSD\TrackRequest:
+    xml_root_name: TrackRequest
+    properties:
+        locale:
+            expose: true
+            access_type: public_method
+            serialized_name: locale
+            accessor:
+                getter: getLocale
+                setter: setLocale
+            xml_attribute: true
+            type: string
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: float
+        searchCriteria:
+            expose: true
+            access_type: public_method
+            serialized_name: SearchCriteria
+            accessor:
+                getter: getSearchCriteria
+                setter: setSearchCriteria
+            type: TNTExpressConnect\Tracking\XSD\TrackRequest\SearchCriteriaAType
+        levelOfDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: LevelOfDetail
+            accessor:
+                getter: getLevelOfDetail
+                setter: setLevelOfDetail
+            type: TNTExpressConnect\Tracking\XSD\TrackRequest\LevelOfDetailAType

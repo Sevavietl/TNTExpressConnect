@@ -1,0 +1,11 @@
+xsd2php:
+  namespaces:
+    '': 'TNTExpressConnect\Tracking\XSD'
+  destinations_php: 
+    'TNTExpressConnect\Tracking\XSD': src/Tracking/XSD
+  destinations_jms:
+    'TNTExpressConnect\Tracking': metadata/Tracking
+  aliases: 
+    'http://www.w3.org/2001/XMLSchema':
+      anyType: 'TNTExpressConnect\Serializer\AnyType'
+      anySimpleType: 'TNTExpressConnect\Serializer\AnyType'

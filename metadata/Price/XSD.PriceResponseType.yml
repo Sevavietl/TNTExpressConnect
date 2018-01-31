@@ -1,0 +1,10 @@
+TNTExpressConnect\Price\XSD\PriceResponseType:
+    properties:
+        ratedServices:
+            expose: true
+            access_type: public_method
+            serialized_name: ratedServices
+            accessor:
+                getter: getRatedServices
+                setter: setRatedServices
+            type: TNTExpressConnect\Price\XSD\RatedServicesType

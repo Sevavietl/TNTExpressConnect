@@ -1,0 +1,30 @@
+TNTExpressConnect\Tracking\XSD\TrackResponse:
+    xml_root_name: TrackResponse
+    properties:
+        consignment:
+            expose: true
+            access_type: public_method
+            serialized_name: Consignment
+            accessor:
+                getter: getConsignment
+                setter: setConsignment
+            xml_list:
+                inline: true
+                entry_name: Consignment
+            type: array<TNTExpressConnect\Tracking\XSD\TrackResponse\ConsignmentAType>
+        continuationKey:
+            expose: true
+            access_type: public_method
+            serialized_name: ContinuationKey
+            accessor:
+                getter: getContinuationKey
+                setter: setContinuationKey
+            type: string
+        error:
+            expose: true
+            access_type: public_method
+            serialized_name: Error
+            accessor:
+                getter: getError
+                setter: setError
+            type: TNTExpressConnect\Tracking\XSD\ErrorStructureType

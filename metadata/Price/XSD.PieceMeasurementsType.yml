@@ -1,0 +1,34 @@
+TNTExpressConnect\Price\XSD\PieceMeasurementsType:
+    properties:
+        length:
+            expose: true
+            access_type: public_method
+            serialized_name: length
+            accessor:
+                getter: getLength
+                setter: setLength
+            type: float
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: float
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: float
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: weight
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: float

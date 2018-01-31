@@ -1,0 +1,42 @@
+TNTExpressConnect\Tracking\XSD\PackageSummaryStructureType:
+    properties:
+        numberOfPieces:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfPieces
+            accessor:
+                getter: getNumberOfPieces
+                setter: setNumberOfPieces
+            type: integer
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: TNTExpressConnect\Tracking\XSD\PackageSummaryStructureType\WeightAType
+        packageDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageDescription
+            accessor:
+                getter: getPackageDescription
+                setter: setPackageDescription
+            type: string
+        goodsDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: GoodsDescription
+            accessor:
+                getter: getGoodsDescription
+                setter: setGoodsDescription
+            type: string
+        invoiceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoiceAmount
+            accessor:
+                getter: getInvoiceAmount
+                setter: setInvoiceAmount
+            type: TNTExpressConnect\Tracking\XSD\PackageSummaryStructureType\InvoiceAmountAType

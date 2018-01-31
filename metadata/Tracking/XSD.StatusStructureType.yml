@@ -1,0 +1,50 @@
+TNTExpressConnect\Tracking\XSD\StatusStructureType:
+    properties:
+        statusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusCode
+            accessor:
+                getter: getStatusCode
+                setter: setStatusCode
+            type: string
+        statusDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusDescription
+            accessor:
+                getter: getStatusDescription
+                setter: setStatusDescription
+            type: string
+        localEventDate:
+            expose: true
+            access_type: public_method
+            serialized_name: LocalEventDate
+            accessor:
+                getter: getLocalEventDate
+                setter: setLocalEventDate
+            type: TNTExpressConnect\Tracking\XSD\DateType
+        localEventTime:
+            expose: true
+            access_type: public_method
+            serialized_name: LocalEventTime
+            accessor:
+                getter: getLocalEventTime
+                setter: setLocalEventTime
+            type: TNTExpressConnect\Tracking\XSD\TimeType
+        depot:
+            expose: true
+            access_type: public_method
+            serialized_name: Depot
+            accessor:
+                getter: getDepot
+                setter: setDepot
+            type: string
+        depotName:
+            expose: true
+            access_type: public_method
+            serialized_name: DepotName
+            accessor:
+                getter: getDepotName
+                setter: setDepotName
+            type: string

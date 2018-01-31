@@ -1,0 +1,26 @@
+TNTExpressConnect\Price\XSD\PieceLineType:
+    properties:
+        numberOfPieces:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfPieces
+            accessor:
+                getter: getNumberOfPieces
+                setter: setNumberOfPieces
+            type: integer
+        pieceMeasurements:
+            expose: true
+            access_type: public_method
+            serialized_name: pieceMeasurements
+            accessor:
+                getter: getPieceMeasurements
+                setter: setPieceMeasurements
+            type: TNTExpressConnect\Price\XSD\PieceMeasurementsType
+        pallet:
+            expose: true
+            access_type: public_method
+            serialized_name: pallet
+            accessor:
+                getter: getPallet
+                setter: setPallet
+            type: boolean

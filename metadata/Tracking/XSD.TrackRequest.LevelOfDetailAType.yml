@@ -1,0 +1,18 @@
+TNTExpressConnect\Tracking\XSD\TrackRequest\LevelOfDetailAType:
+    properties:
+        complete:
+            expose: true
+            access_type: public_method
+            serialized_name: Complete
+            accessor:
+                getter: getComplete
+                setter: setComplete
+            type: TNTExpressConnect\Tracking\XSD\TrackRequest\LevelOfDetailAType\CompleteAType
+        summary:
+            expose: true
+            access_type: public_method
+            serialized_name: Summary
+            accessor:
+                getter: getSummary
+                setter: setSummary
+            type: TNTExpressConnect\Serializer\AnyType

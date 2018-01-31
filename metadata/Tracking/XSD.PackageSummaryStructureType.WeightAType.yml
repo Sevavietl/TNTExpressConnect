@@ -1,0 +1,19 @@
+TNTExpressConnect\Tracking\XSD\PackageSummaryStructureType\WeightAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+        units:
+            expose: true
+            access_type: public_method
+            serialized_name: units
+            accessor:
+                getter: getUnits
+                setter: setUnits
+            xml_attribute: true
+            type: string

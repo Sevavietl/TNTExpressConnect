@@ -1,0 +1,47 @@
+TNTExpressConnect\Tracking\XSD\TrackRequest\LevelOfDetailAType\CompleteAType:
+    properties:
+        originAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: originAddress
+            accessor:
+                getter: getOriginAddress
+                setter: setOriginAddress
+            xml_attribute: true
+            type: boolean
+        destinationAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: destinationAddress
+            accessor:
+                getter: getDestinationAddress
+                setter: setDestinationAddress
+            xml_attribute: true
+            type: boolean
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: shipment
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            xml_attribute: true
+            type: boolean
+        package:
+            expose: true
+            access_type: public_method
+            serialized_name: package
+            accessor:
+                getter: getPackage
+                setter: setPackage
+            xml_attribute: true
+            type: boolean
+        podImage:
+            expose: true
+            access_type: public_method
+            serialized_name: podImage
+            accessor:
+                getter: getPodImage
+                setter: setPodImage
+            xml_attribute: true
+            type: boolean

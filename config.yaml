@@ -1,0 +1,11 @@
+xsd2php:
+  namespaces:
+    '': 'TNTExpressConnect'
+  destinations_php: 
+    'TNTExpressConnect': src
+  destinations_jms:
+    'TNTExpressConnect': metadata
+  aliases: 
+    'http://www.w3.org/2001/XMLSchema':
+      anyType: 'MyCustomAnyTypeHandler'
+      anySimpleType: 'MyCustomAnySimpleTypeHandler'

@@ -1,0 +1,35 @@
+TNTExpressConnect\Price\XSD\ErrorsType:
+    properties:
+        runtimeError:
+            expose: true
+            access_type: public_method
+            serialized_name: runtimeError
+            accessor:
+                getter: getRuntimeError
+                setter: setRuntimeError
+            xml_list:
+                inline: true
+                entry_name: runtimeError
+            type: array<TNTExpressConnect\Price\XSD\RuntimeErrorType>
+        parseError:
+            expose: true
+            access_type: public_method
+            serialized_name: parseError
+            accessor:
+                getter: getParseError
+                setter: setParseError
+            xml_list:
+                inline: true
+                entry_name: parseError
+            type: array<TNTExpressConnect\Price\XSD\ParseErrorType>
+        brokenRule:
+            expose: true
+            access_type: public_method
+            serialized_name: brokenRule
+            accessor:
+                getter: getBrokenRule
+                setter: setBrokenRule
+            xml_list:
+                inline: true
+                entry_name: brokenRule
+            type: array<TNTExpressConnect\Price\XSD\BrokenRuleType>

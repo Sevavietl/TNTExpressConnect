@@ -1,0 +1,102 @@
+TNTExpressConnect\Tracking\XSD\AddressStructureType:
+    properties:
+        addressParty:
+            expose: true
+            access_type: public_method
+            serialized_name: addressParty
+            accessor:
+                getter: getAddressParty
+                setter: setAddressParty
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        addressLine:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressLine
+            accessor:
+                getter: getAddressLine
+                setter: setAddressLine
+            xml_list:
+                inline: true
+                entry_name: AddressLine
+            type: array<string>
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: City
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: string
+        province:
+            expose: true
+            access_type: public_method
+            serialized_name: Province
+            accessor:
+                getter: getProvince
+                setter: setProvince
+            type: string
+        postcode:
+            expose: true
+            access_type: public_method
+            serialized_name: Postcode
+            accessor:
+                getter: getPostcode
+                setter: setPostcode
+            type: string
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: TNTExpressConnect\Tracking\XSD\CountryStructureType
+        phoneNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: PhoneNumber
+            accessor:
+                getter: getPhoneNumber
+                setter: setPhoneNumber
+            type: string
+        contactName:
+            expose: true
+            access_type: public_method
+            serialized_name: ContactName
+            accessor:
+                getter: getContactName
+                setter: setContactName
+            type: string
+        contactPhoneNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ContactPhoneNumber
+            accessor:
+                getter: getContactPhoneNumber
+                setter: setContactPhoneNumber
+            type: string
+        accountNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountNumber
+            accessor:
+                getter: getAccountNumber
+                setter: setAccountNumber
+            type: TNTExpressConnect\Serializer\AnyType
+        vATNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: VATNumber
+            accessor:
+                getter: getVATNumber
+                setter: setVATNumber
+            type: string

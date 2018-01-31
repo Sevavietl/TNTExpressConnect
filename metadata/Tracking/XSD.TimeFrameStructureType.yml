@@ -1,0 +1,26 @@
+TNTExpressConnect\Tracking\XSD\TimeFrameStructureType:
+    properties:
+        dateFrom:
+            expose: true
+            access_type: public_method
+            serialized_name: DateFrom
+            accessor:
+                getter: getDateFrom
+                setter: setDateFrom
+            type: TNTExpressConnect\Tracking\XSD\DateFrom
+        dateTo:
+            expose: true
+            access_type: public_method
+            serialized_name: DateTo
+            accessor:
+                getter: getDateTo
+                setter: setDateTo
+            type: TNTExpressConnect\Tracking\XSD\DateTo
+        numberOfDays:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfDays
+            accessor:
+                getter: getNumberOfDays
+                setter: setNumberOfDays
+            type: TNTExpressConnect\Tracking\XSD\NumberOfDays

@@ -1,0 +1,18 @@
+TNTExpressConnect\Price\XSD\InsuranceType:
+    properties:
+        insuranceValue:
+            expose: true
+            access_type: public_method
+            serialized_name: insuranceValue
+            accessor:
+                getter: getInsuranceValue
+                setter: setInsuranceValue
+            type: float
+        goodsValue:
+            expose: true
+            access_type: public_method
+            serialized_name: goodsValue
+            accessor:
+                getter: getGoodsValue
+                setter: setGoodsValue
+            type: float

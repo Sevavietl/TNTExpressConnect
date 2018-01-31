@@ -1,0 +1,83 @@
+TNTExpressConnect\Tracking\XSD\TrackRequest\SearchCriteriaAType:
+    properties:
+        marketType:
+            expose: true
+            access_type: public_method
+            serialized_name: marketType
+            accessor:
+                getter: getMarketType
+                setter: setMarketType
+            xml_attribute: true
+            type: string
+        originCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: originCountry
+            accessor:
+                getter: getOriginCountry
+                setter: setOriginCountry
+            xml_attribute: true
+            type: string
+        account:
+            expose: true
+            access_type: public_method
+            serialized_name: Account
+            accessor:
+                getter: getAccount
+                setter: setAccount
+            xml_list:
+                inline: true
+                entry_name: Account
+            type: array<TNTExpressConnect\Tracking\XSD\Account>
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: Period
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: TNTExpressConnect\Tracking\XSD\Period
+        alternativeConsignmentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternativeConsignmentNumber
+            accessor:
+                getter: getAlternativeConsignmentNumber
+                setter: setAlternativeConsignmentNumber
+            xml_list:
+                inline: true
+                entry_name: AlternativeConsignmentNumber
+            type: array<string>
+        consignmentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsignmentNumber
+            accessor:
+                getter: getConsignmentNumber
+                setter: setConsignmentNumber
+            xml_list:
+                inline: true
+                entry_name: ConsignmentNumber
+            type: array<string>
+        customerReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomerReference
+            accessor:
+                getter: getCustomerReference
+                setter: setCustomerReference
+            xml_list:
+                inline: true
+                entry_name: CustomerReference
+            type: array<string>
+        pieceReference:
+            expose: true
+            access_type: public_method
+            serialized_name: PieceReference
+            accessor:
+                getter: getPieceReference
+                setter: setPieceReference
+            xml_list:
+                inline: true
+                entry_name: PieceReference
+            type: array<string>

@@ -1,0 +1,26 @@
+TNTExpressConnect\Price\XSD\ConsignmentDetailsType:
+    properties:
+        totalWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: totalWeight
+            accessor:
+                getter: getTotalWeight
+                setter: setTotalWeight
+            type: float
+        totalVolume:
+            expose: true
+            access_type: public_method
+            serialized_name: totalVolume
+            accessor:
+                getter: getTotalVolume
+                setter: setTotalVolume
+            type: float
+        totalNumberOfPieces:
+            expose: true
+            access_type: public_method
+            serialized_name: totalNumberOfPieces
+            accessor:
+                getter: getTotalNumberOfPieces
+                setter: setTotalNumberOfPieces
+            type: integer

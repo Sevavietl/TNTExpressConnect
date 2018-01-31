@@ -1,0 +1,106 @@
+TNTExpressConnect\Price\XSD\PriceCheck:
+    xml_root_name: priceCheck
+    properties:
+        rateId:
+            expose: true
+            access_type: public_method
+            serialized_name: rateId
+            accessor:
+                getter: getRateId
+                setter: setRateId
+            type: string
+            xml_element:
+                cdata: false
+        sender:
+            expose: true
+            access_type: public_method
+            serialized_name: sender
+            accessor:
+                getter: getSender
+                setter: setSender
+            type: TNTExpressConnect\Price\XSD\AddressType
+        delivery:
+            expose: true
+            access_type: public_method
+            serialized_name: delivery
+            accessor:
+                getter: getDelivery
+                setter: setDelivery
+            type: TNTExpressConnect\Price\XSD\AddressType
+        collectionDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: collectionDateTime
+            accessor:
+                getter: getCollectionDateTime
+                setter: setCollectionDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        product:
+            expose: true
+            access_type: public_method
+            serialized_name: product
+            accessor:
+                getter: getProduct
+                setter: setProduct
+            type: TNTExpressConnect\Price\XSD\ProductType
+        account:
+            expose: true
+            access_type: public_method
+            serialized_name: account
+            accessor:
+                getter: getAccount
+                setter: setAccount
+            type: TNTExpressConnect\Price\XSD\AccountType
+        insurance:
+            expose: true
+            access_type: public_method
+            serialized_name: insurance
+            accessor:
+                getter: getInsurance
+                setter: setInsurance
+            type: TNTExpressConnect\Price\XSD\InsuranceType
+        termsOfPayment:
+            expose: true
+            access_type: public_method
+            serialized_name: termsOfPayment
+            accessor:
+                getter: getTermsOfPayment
+                setter: setTermsOfPayment
+            type: string
+        currency:
+            expose: true
+            access_type: public_method
+            serialized_name: currency
+            accessor:
+                getter: getCurrency
+                setter: setCurrency
+            type: string
+            xml_element:
+                cdata: false
+        priceBreakDown:
+            expose: true
+            access_type: public_method
+            serialized_name: priceBreakDown
+            accessor:
+                getter: getPriceBreakDown
+                setter: setPriceBreakDown
+            type: boolean
+        consignmentDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: consignmentDetails
+            accessor:
+                getter: getConsignmentDetails
+                setter: setConsignmentDetails
+            type: TNTExpressConnect\Price\XSD\ConsignmentDetailsType
+        pieceLine:
+            expose: true
+            access_type: public_method
+            serialized_name: pieceLine
+            accessor:
+                getter: getPieceLine
+                setter: setPieceLine
+            xml_list:
+                inline: true
+                entry_name: pieceLine
+            type: array<TNTExpressConnect\Price\XSD\PieceLineType>

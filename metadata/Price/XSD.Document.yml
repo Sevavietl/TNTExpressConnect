@@ -1,0 +1,30 @@
+TNTExpressConnect\Price\XSD\Document:
+    xml_root_name: document
+    properties:
+        requestId:
+            expose: true
+            access_type: public_method
+            serialized_name: requestId
+            accessor:
+                getter: getRequestId
+                setter: setRequestId
+            type: string
+        errors:
+            expose: true
+            access_type: public_method
+            serialized_name: errors
+            accessor:
+                getter: getErrors
+                setter: setErrors
+            type: TNTExpressConnect\Price\XSD\ErrorsType
+        priceResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: priceResponse
+            accessor:
+                getter: getPriceResponse
+                setter: setPriceResponse
+            xml_list:
+                inline: true
+                entry_name: priceResponse
+            type: array<TNTExpressConnect\Price\XSD\PriceResponseType>

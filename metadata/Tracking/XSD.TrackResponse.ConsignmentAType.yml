@@ -1,0 +1,186 @@
+TNTExpressConnect\Tracking\XSD\TrackResponse\ConsignmentAType:
+    properties:
+        access:
+            expose: true
+            access_type: public_method
+            serialized_name: access
+            accessor:
+                getter: getAccess
+                setter: setAccess
+            xml_attribute: true
+            type: string
+        consignmentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsignmentNumber
+            accessor:
+                getter: getConsignmentNumber
+                setter: setConsignmentNumber
+            type: string
+        alternativeConsignmentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternativeConsignmentNumber
+            accessor:
+                getter: getAlternativeConsignmentNumber
+                setter: setAlternativeConsignmentNumber
+            type: string
+        originDepot:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginDepot
+            accessor:
+                getter: getOriginDepot
+                setter: setOriginDepot
+            type: string
+        originDepotName:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginDepotName
+            accessor:
+                getter: getOriginDepotName
+                setter: setOriginDepotName
+            type: string
+        customerReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomerReference
+            accessor:
+                getter: getCustomerReference
+                setter: setCustomerReference
+            type: string
+        collectionDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CollectionDate
+            accessor:
+                getter: getCollectionDate
+                setter: setCollectionDate
+            type: TNTExpressConnect\Tracking\XSD\DateType
+        deliveryTown:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryTown
+            accessor:
+                getter: getDeliveryTown
+                setter: setDeliveryTown
+            type: string
+        deliveryDate:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryDate
+            accessor:
+                getter: getDeliveryDate
+                setter: setDeliveryDate
+            type: TNTExpressConnect\Tracking\XSD\DateType
+        deliveryTime:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryTime
+            accessor:
+                getter: getDeliveryTime
+                setter: setDeliveryTime
+            type: TNTExpressConnect\Tracking\XSD\TimeType
+        signatory:
+            expose: true
+            access_type: public_method
+            serialized_name: Signatory
+            accessor:
+                getter: getSignatory
+                setter: setSignatory
+            type: string
+        summaryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SummaryCode
+            accessor:
+                getter: getSummaryCode
+                setter: setSummaryCode
+            type: string
+        destinationCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationCountry
+            accessor:
+                getter: getDestinationCountry
+                setter: setDestinationCountry
+            type: TNTExpressConnect\Tracking\XSD\CountryStructureType
+        originCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginCountry
+            accessor:
+                getter: getOriginCountry
+                setter: setOriginCountry
+            type: TNTExpressConnect\Tracking\XSD\CountryStructureType
+        termsOfPaymentAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: TermsOfPaymentAccount
+            accessor:
+                getter: getTermsOfPaymentAccount
+                setter: setTermsOfPaymentAccount
+            type: TNTExpressConnect\Tracking\XSD\AccountStructureType
+        senderAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: SenderAccount
+            accessor:
+                getter: getSenderAccount
+                setter: setSenderAccount
+            type: TNTExpressConnect\Tracking\XSD\AccountStructureType
+        pieceQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: PieceQuantity
+            accessor:
+                getter: getPieceQuantity
+                setter: setPieceQuantity
+            type: TNTExpressConnect\Serializer\AnyType
+        statusData:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusData
+            accessor:
+                getter: getStatusData
+                setter: setStatusData
+            xml_list:
+                inline: true
+                entry_name: StatusData
+            type: array<TNTExpressConnect\Tracking\XSD\StatusStructureType>
+        packageSummary:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageSummary
+            accessor:
+                getter: getPackageSummary
+                setter: setPackageSummary
+            type: TNTExpressConnect\Tracking\XSD\PackageSummaryStructureType
+        shipmentSummary:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentSummary
+            accessor:
+                getter: getShipmentSummary
+                setter: setShipmentSummary
+            type: TNTExpressConnect\Tracking\XSD\ShipmentSummaryStructureType
+        addresses:
+            expose: true
+            access_type: public_method
+            serialized_name: Addresses
+            accessor:
+                getter: getAddresses
+                setter: setAddresses
+            type: array<TNTExpressConnect\Tracking\XSD\AddressStructureType>
+            xml_list:
+                inline: false
+                entry_name: Address
+                skip_when_empty: true
+        pOD:
+            expose: true
+            access_type: public_method
+            serialized_name: POD
+            accessor:
+                getter: getPOD
+                setter: setPOD
+            type: string

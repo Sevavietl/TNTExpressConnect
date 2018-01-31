@@ -1,0 +1,26 @@
+TNTExpressConnect\Tracking\XSD\ShipmentSummaryStructureType:
+    properties:
+        termsOfPayment:
+            expose: true
+            access_type: public_method
+            serialized_name: TermsOfPayment
+            accessor:
+                getter: getTermsOfPayment
+                setter: setTermsOfPayment
+            type: string
+        dueDate:
+            expose: true
+            access_type: public_method
+            serialized_name: DueDate
+            accessor:
+                getter: getDueDate
+                setter: setDueDate
+            type: TNTExpressConnect\Tracking\XSD\DateType
+        service:
+            expose: true
+            access_type: public_method
+            serialized_name: Service
+            accessor:
+                getter: getService
+                setter: setService
+            type: string

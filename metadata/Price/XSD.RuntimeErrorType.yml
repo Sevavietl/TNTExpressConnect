@@ -1,0 +1,18 @@
+TNTExpressConnect\Price\XSD\RuntimeErrorType:
+    properties:
+        errorReason:
+            expose: true
+            access_type: public_method
+            serialized_name: errorReason
+            accessor:
+                getter: getErrorReason
+                setter: setErrorReason
+            type: string
+        errorSrcText:
+            expose: true
+            access_type: public_method
+            serialized_name: errorSrcText
+            accessor:
+                getter: getErrorSrcText
+                setter: setErrorSrcText
+            type: string

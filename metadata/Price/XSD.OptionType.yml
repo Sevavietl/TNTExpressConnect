@@ -1,0 +1,18 @@
+TNTExpressConnect\Price\XSD\OptionType:
+    properties:
+        optionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: optionCode
+            accessor:
+                getter: getOptionCode
+                setter: setOptionCode
+            type: string
+        optionDesc:
+            expose: true
+            access_type: public_method
+            serialized_name: optionDesc
+            accessor:
+                getter: getOptionDesc
+                setter: setOptionDesc
+            type: string

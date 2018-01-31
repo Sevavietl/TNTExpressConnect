@@ -1,0 +1,11 @@
+xsd2php:
+  namespaces:
+    '': 'TNTExpressConnect\Price\XSD'
+  destinations_php: 
+    'TNTExpressConnect\Price\XSD': src/Price/XSD
+  destinations_jms:
+    'TNTExpressConnect\Price': metadata/Price
+  aliases: 
+    'http://www.w3.org/2001/XMLSchema':
+      anyType: 'TNTExpressConnect\Serializer\AnyType'
+      anySimpleType: 'TNTExpressConnect\Serializer\AnyType'

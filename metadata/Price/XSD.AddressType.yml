@@ -1,0 +1,32 @@
+TNTExpressConnect\Price\XSD\AddressType:
+    properties:
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: string
+            xml_element:
+                cdata: false
+        town:
+            expose: true
+            access_type: public_method
+            serialized_name: town
+            accessor:
+                getter: getTown
+                setter: setTown
+            type: string
+            xml_element:
+                cdata: false
+        postcode:
+            expose: true
+            access_type: public_method
+            serialized_name: postcode
+            accessor:
+                getter: getPostcode
+                setter: setPostcode
+            type: string
+            xml_element:
+                cdata: false
