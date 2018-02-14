@@ -7,7 +7,7 @@
     },
     "require-dev": {
         "goetas-webservices/xsd2php":"^0.3",
-        "phpunit/phpunit": "^6.5"
+        "phpunit/phpunit": "^7"
     },
     "autoload": {
         "psr-4": {

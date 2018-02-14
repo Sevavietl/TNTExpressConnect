@@ -9,7 +9,7 @@ class Service extends AbstractService
     
     public function send($xml)
     {
-        $response = $this->client->request('POST', self::URL, [
+        $response = $this->client->request('POST', static::URL, [
             'headers' => [
                 'Content-Type' => 'text/xml; charset=UTF8',
             ],

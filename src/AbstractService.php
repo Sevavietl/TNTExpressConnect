@@ -1,26 +1,23 @@
 <?php
 namespace TNTExpressConnect;
 
-use TNTExpressConnect\Serializer\Serializer;
-use GuzzleHttp\Client;
+use GuzzleHttp\ClientInterface;
+use JMS\Serializer\SerializerInterface;
 
 abstract class AbstractService
 {
+    protected $credentials;
     protected $serializer;
     protected $client;
 
-    protected $username;
-    protected $password;
-    protected $account;
-
-    public function __construct($username, $password, $account = null)
-    {
-        $this->username = $username;
-        $this->password = $password;
-        $this->account = $account;
-
-        $this->serializer = new Serializer;
-        $this->client = new Client;
+    public function __construct(
+        Credentials $credentials,
+        SerializerInterface $serializer,
+        ClientInterface $client
+    ) {
+        $this->credentials = $credentials;
+        $this->serializer = $serializer;
+        $this->client = $client;
     }
 
     abstract public function send($xml);

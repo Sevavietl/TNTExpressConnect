@@ -5,9 +5,11 @@ use TNTExpressConnect\AbstractService;
 
 class Service extends AbstractService
 {
+    const URL = 'https://express.tnt.com/expressconnect/track.do';
+    
     public function send($xml)
     {
-        $response = $this->client->request('POST', self::URL, [
+        $response = $this->client->request('POST', static::URL, [
             'headers' => [
                 'Content-Type' => 'text/xml; charset=UTF8',
             ],

@@ -1,6 +1,7 @@
 <?php
 namespace TNTExpressConnect\Serializer;
 
+use JMS\Serializer\SerializerInterface;
 use JMS\Serializer\SerializerBuilder;
 use JMS\Serializer\SerializationContext;
 use JMS\Serializer\Handler\HandlerRegistryInterface;
@@ -9,7 +10,7 @@ use JMS\Serializer\Naming\IdenticalPropertyNamingStrategy;
 use GoetasWebservices\Xsd\XsdToPhpRuntime\Jms\Handler\BaseTypesHandler;
 use GoetasWebservices\Xsd\XsdToPhpRuntime\Jms\Handler\XmlSchemaDateHandler;
 
-class Serializer
+class Serializer implements SerializerInterface
 {
     private $serializer;
 
@@ -36,13 +37,13 @@ class Serializer
         $this->serializer = $serializerBuilder->build();
     }
 
-    public function serialize($xml)
+    public function serialize($data, $format = 'xml', SerializationContext $context = null)
     {
-        return $this->serializer->serialize($xml, 'xml');
+        return $this->serializer->serialize($data, $format, $context);
     }
-
-    public function deserialize($string, $class)
+    
+    public function deserialize($data, $type, $format = 'xml', DeserializationContext $context = null)
     {
-        return $this->serializer->deserialize($string, $class, 'xml');
+        return $this->serializer->deserialize($data, $type, $format, $context);
     }
 }
