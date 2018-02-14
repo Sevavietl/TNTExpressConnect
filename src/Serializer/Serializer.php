@@ -4,6 +4,7 @@ namespace TNTExpressConnect\Serializer;
 use JMS\Serializer\SerializerInterface;
 use JMS\Serializer\SerializerBuilder;
 use JMS\Serializer\SerializationContext;
+use JMS\Serializer\DeserializationContext;
 use JMS\Serializer\Handler\HandlerRegistryInterface;
 use JMS\Serializer\Naming\IdenticalPropertyNamingStrategy;
 

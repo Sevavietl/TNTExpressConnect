@@ -27,7 +27,7 @@ class ServiceFactory
 
     private function resolveClass($serviceName)
     {
-        $klass = 'TNTExpressService\\' . ucfirst($serviceName) . '\\Service';
+        $klass = 'TNTExpressConnect\\' . ucfirst($serviceName) . '\\Service';
 
         if (!class_exists($klass)) {
             throw new \RuntimeException("There is no service with name $serviceName.");

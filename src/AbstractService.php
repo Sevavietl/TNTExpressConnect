@@ -20,5 +20,20 @@ abstract class AbstractService
         $this->client = $client;
     }
 
+    public function getUsername()
+    {
+        return $this->credentials->getUsername();
+    }
+
+    public function getPassword()
+    {
+        return $this->credentials->getPassword();
+    }
+
+    public function getAccount()
+    {
+        return $this->credentials->getAccount();
+    }
+
     abstract public function send($xml);
 }
