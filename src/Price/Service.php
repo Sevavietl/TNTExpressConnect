@@ -13,12 +13,12 @@ class Service extends AbstractService
             'headers' => [
                 'Content-Type' => 'text/xml; charset=UTF8',
             ],
-            'auth' => [$this->username, $this->password],
+            'auth' => [$this->getUsername(), $this->getPassword()],
             'body' => $this->serializer->serialize($xml)
         ]);
         
         return $this->serializer->deserialize(
-            $response->getBody()->getContents(),
+            (string) $response->getBody(),
             'TNTExpressConnect\Price\XSD\Document'
         );
     }
