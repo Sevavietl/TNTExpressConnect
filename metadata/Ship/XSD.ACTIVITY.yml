@@ -1,0 +1,55 @@
+TNTExpressConnect\Ship\XSD\ACTIVITY:
+    xml_root_name: ACTIVITY
+    properties:
+        cREATE:
+            expose: true
+            access_type: public_method
+            serialized_name: CREATE
+            accessor:
+                getter: getCREATE
+                setter: setCREATE
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: CONREF
+                skip_when_empty: false
+        rATE:
+            expose: true
+            access_type: public_method
+            serialized_name: RATE
+            accessor:
+                getter: getRATE
+                setter: setRATE
+            type: TNTExpressConnect\Ship\XSD\RATE
+        bOOK:
+            expose: true
+            access_type: public_method
+            serialized_name: BOOK
+            accessor:
+                getter: getBOOK
+                setter: setBOOK
+            type: TNTExpressConnect\Ship\XSD\BOOK
+        sHIP:
+            expose: true
+            access_type: public_method
+            serialized_name: SHIP
+            accessor:
+                getter: getSHIP
+                setter: setSHIP
+            type: TNTExpressConnect\Ship\XSD\SHIP
+        pRINT:
+            expose: true
+            access_type: public_method
+            serialized_name: PRINT
+            accessor:
+                getter: getPRINT
+                setter: setPRINT
+            type: TNTExpressConnect\Ship\XSD\PRINT
+        sHOWGROUPCODE:
+            expose: true
+            access_type: public_method
+            serialized_name: SHOW_GROUPCODE
+            accessor:
+                getter: getSHOWGROUPCODE
+                setter: setSHOWGROUPCODE
+            type: TNTExpressConnect\Ship\XSD\SHOWGROUPCODE

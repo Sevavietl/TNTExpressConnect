@@ -1,0 +1,193 @@
+TNTExpressConnect\Ship\XSD\DETAILS:
+    xml_root_name: DETAILS
+    properties:
+        rECEIVER:
+            expose: true
+            access_type: public_method
+            serialized_name: RECEIVER
+            accessor:
+                getter: getRECEIVER
+                setter: setRECEIVER
+            type: TNTExpressConnect\Ship\XSD\RECEIVER
+        dELIVERY:
+            expose: true
+            access_type: public_method
+            serialized_name: DELIVERY
+            accessor:
+                getter: getDELIVERY
+                setter: setDELIVERY
+            type: TNTExpressConnect\Ship\XSD\DELIVERY
+        cONNUMBER:
+            expose: true
+            access_type: public_method
+            serialized_name: CONNUMBER
+            accessor:
+                getter: getCONNUMBER
+                setter: setCONNUMBER
+            type: string
+        cUSTOMERREF:
+            expose: true
+            access_type: public_method
+            serialized_name: CUSTOMERREF
+            accessor:
+                getter: getCUSTOMERREF
+                setter: setCUSTOMERREF
+            type: string
+        cONTYPE:
+            expose: true
+            access_type: public_method
+            serialized_name: CONTYPE
+            accessor:
+                getter: getCONTYPE
+                setter: setCONTYPE
+            type: string
+        pAYMENTIND:
+            expose: true
+            access_type: public_method
+            serialized_name: PAYMENTIND
+            accessor:
+                getter: getPAYMENTIND
+                setter: setPAYMENTIND
+            type: string
+        iTEMS:
+            expose: true
+            access_type: public_method
+            serialized_name: ITEMS
+            accessor:
+                getter: getITEMS
+                setter: setITEMS
+            type: integer
+        tOTALWEIGHT:
+            expose: true
+            access_type: public_method
+            serialized_name: TOTALWEIGHT
+            accessor:
+                getter: getTOTALWEIGHT
+                setter: setTOTALWEIGHT
+            type: float
+        tOTALVOLUME:
+            expose: true
+            access_type: public_method
+            serialized_name: TOTALVOLUME
+            accessor:
+                getter: getTOTALVOLUME
+                setter: setTOTALVOLUME
+            type: float
+        cURRENCY:
+            expose: true
+            access_type: public_method
+            serialized_name: CURRENCY
+            accessor:
+                getter: getCURRENCY
+                setter: setCURRENCY
+            type: string
+        gOODSVALUE:
+            expose: true
+            access_type: public_method
+            serialized_name: GOODSVALUE
+            accessor:
+                getter: getGOODSVALUE
+                setter: setGOODSVALUE
+            type: float
+        iNSURANCEVALUE:
+            expose: true
+            access_type: public_method
+            serialized_name: INSURANCEVALUE
+            accessor:
+                getter: getINSURANCEVALUE
+                setter: setINSURANCEVALUE
+            type: float
+        iNSURANCECURRENCY:
+            expose: true
+            access_type: public_method
+            serialized_name: INSURANCECURRENCY
+            accessor:
+                getter: getINSURANCECURRENCY
+                setter: setINSURANCECURRENCY
+            type: string
+        dIVISION:
+            expose: true
+            access_type: public_method
+            serialized_name: DIVISION
+            accessor:
+                getter: getDIVISION
+                setter: setDIVISION
+            type: string
+        sERVICE:
+            expose: true
+            access_type: public_method
+            serialized_name: SERVICE
+            accessor:
+                getter: getSERVICE
+                setter: setSERVICE
+            type: string
+        oPTION:
+            expose: true
+            access_type: public_method
+            serialized_name: OPTION
+            accessor:
+                getter: getOPTION
+                setter: setOPTION
+            xml_list:
+                inline: true
+                entry_name: OPTION
+            type: array<string>
+        dESCRIPTION:
+            expose: true
+            access_type: public_method
+            serialized_name: DESCRIPTION
+            accessor:
+                getter: getDESCRIPTION
+                setter: setDESCRIPTION
+            type: string
+        dELIVERYINST:
+            expose: true
+            access_type: public_method
+            serialized_name: DELIVERYINST
+            accessor:
+                getter: getDELIVERYINST
+                setter: setDELIVERYINST
+            type: string
+        cUSTOMCONTROLIN:
+            expose: true
+            access_type: public_method
+            serialized_name: CUSTOMCONTROLIN
+            accessor:
+                getter: getCUSTOMCONTROLIN
+                setter: setCUSTOMCONTROLIN
+            type: string
+        hAZARDOUS:
+            expose: true
+            access_type: public_method
+            serialized_name: HAZARDOUS
+            accessor:
+                getter: getHAZARDOUS
+                setter: setHAZARDOUS
+            type: string
+        uNNUMBER:
+            expose: true
+            access_type: public_method
+            serialized_name: UNNUMBER
+            accessor:
+                getter: getUNNUMBER
+                setter: setUNNUMBER
+            type: string
+        pACKINGGROUP:
+            expose: true
+            access_type: public_method
+            serialized_name: PACKINGGROUP
+            accessor:
+                getter: getPACKINGGROUP
+                setter: setPACKINGGROUP
+            type: string
+        pACKAGE:
+            expose: true
+            access_type: public_method
+            serialized_name: PACKAGE
+            accessor:
+                getter: getPACKAGE
+                setter: setPACKAGE
+            xml_list:
+                inline: true
+                entry_name: PACKAGE
+            type: array<TNTExpressConnect\Ship\XSD\PACKAGE>

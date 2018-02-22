@@ -1,0 +1,19 @@
+TNTExpressConnect\Ship\XSD\ALTCOLLECTTIME:
+    xml_root_name: ALTCOLLECTTIME
+    properties:
+        fROM:
+            expose: true
+            access_type: public_method
+            serialized_name: FROM
+            accessor:
+                getter: getFROM
+                setter: setFROM
+            type: string
+        tO:
+            expose: true
+            access_type: public_method
+            serialized_name: TO
+            accessor:
+                getter: getTO
+                setter: setTO
+            type: string

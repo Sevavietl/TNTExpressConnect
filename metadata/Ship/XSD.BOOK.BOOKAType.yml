@@ -1,0 +1,13 @@
+TNTExpressConnect\Ship\XSD\BOOK\BOOKAType:
+    properties:
+        cONSIGNMENT:
+            expose: true
+            access_type: public_method
+            serialized_name: CONSIGNMENT
+            accessor:
+                getter: getCONSIGNMENT
+                setter: setCONSIGNMENT
+            xml_list:
+                inline: true
+                entry_name: CONSIGNMENT
+            type: array<TNTExpressConnect\Ship\XSD\CONSIGNMENT>

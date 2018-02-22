@@ -1,0 +1,62 @@
+TNTExpressConnect\Ship\XSD\PACKAGE:
+    xml_root_name: PACKAGE
+    properties:
+        iTEMS:
+            expose: true
+            access_type: public_method
+            serialized_name: ITEMS
+            accessor:
+                getter: getITEMS
+                setter: setITEMS
+            type: integer
+        dESCRIPTION:
+            expose: true
+            access_type: public_method
+            serialized_name: DESCRIPTION
+            accessor:
+                getter: getDESCRIPTION
+                setter: setDESCRIPTION
+            type: string
+        lENGTH:
+            expose: true
+            access_type: public_method
+            serialized_name: LENGTH
+            accessor:
+                getter: getLENGTH
+                setter: setLENGTH
+            type: float
+        hEIGHT:
+            expose: true
+            access_type: public_method
+            serialized_name: HEIGHT
+            accessor:
+                getter: getHEIGHT
+                setter: setHEIGHT
+            type: float
+        wIDTH:
+            expose: true
+            access_type: public_method
+            serialized_name: WIDTH
+            accessor:
+                getter: getWIDTH
+                setter: setWIDTH
+            type: float
+        wEIGHT:
+            expose: true
+            access_type: public_method
+            serialized_name: WEIGHT
+            accessor:
+                getter: getWEIGHT
+                setter: setWEIGHT
+            type: float
+        aRTICLE:
+            expose: true
+            access_type: public_method
+            serialized_name: ARTICLE
+            accessor:
+                getter: getARTICLE
+                setter: setARTICLE
+            xml_list:
+                inline: true
+                entry_name: ARTICLE
+            type: array<TNTExpressConnect\Ship\XSD\ARTICLE>

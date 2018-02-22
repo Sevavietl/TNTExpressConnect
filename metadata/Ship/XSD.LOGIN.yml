@@ -1,0 +1,35 @@
+TNTExpressConnect\Ship\XSD\LOGIN:
+    xml_root_name: LOGIN
+    properties:
+        cOMPANY:
+            expose: true
+            access_type: public_method
+            serialized_name: COMPANY
+            accessor:
+                getter: getCOMPANY
+                setter: setCOMPANY
+            type: string
+        pASSWORD:
+            expose: true
+            access_type: public_method
+            serialized_name: PASSWORD
+            accessor:
+                getter: getPASSWORD
+                setter: setPASSWORD
+            type: string
+        aPPID:
+            expose: true
+            access_type: public_method
+            serialized_name: APPID
+            accessor:
+                getter: getAPPID
+                setter: setAPPID
+            type: string
+        aPPVERSION:
+            expose: true
+            access_type: public_method
+            serialized_name: APPVERSION
+            accessor:
+                getter: getAPPVERSION
+                setter: setAPPVERSION
+            type: float

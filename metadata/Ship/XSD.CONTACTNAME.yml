@@ -1,0 +1,11 @@
+TNTExpressConnect\Ship\XSD\CONTACTNAME:
+    xml_root_name: CONTACTNAME
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string

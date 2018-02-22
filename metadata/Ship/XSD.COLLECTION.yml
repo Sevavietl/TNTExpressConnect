@@ -1,0 +1,51 @@
+TNTExpressConnect\Ship\XSD\COLLECTION:
+    xml_root_name: COLLECTION
+    properties:
+        cOLLECTIONADDRESS:
+            expose: true
+            access_type: public_method
+            serialized_name: COLLECTIONADDRESS
+            accessor:
+                getter: getCOLLECTIONADDRESS
+                setter: setCOLLECTIONADDRESS
+            type: TNTExpressConnect\Ship\XSD\COLLECTIONADDRESS
+        sHIPDATE:
+            expose: true
+            access_type: public_method
+            serialized_name: SHIPDATE
+            accessor:
+                getter: getSHIPDATE
+                setter: setSHIPDATE
+            type: string
+        pREFCOLLECTTIME:
+            expose: true
+            access_type: public_method
+            serialized_name: PREFCOLLECTTIME
+            accessor:
+                getter: getPREFCOLLECTTIME
+                setter: setPREFCOLLECTTIME
+            type: TNTExpressConnect\Ship\XSD\PREFCOLLECTTIME
+        aLTCOLLECTTIME:
+            expose: true
+            access_type: public_method
+            serialized_name: ALTCOLLECTTIME
+            accessor:
+                getter: getALTCOLLECTTIME
+                setter: setALTCOLLECTTIME
+            type: TNTExpressConnect\Ship\XSD\ALTCOLLECTTIME
+        cOLLINSTRUCTIONS:
+            expose: true
+            access_type: public_method
+            serialized_name: COLLINSTRUCTIONS
+            accessor:
+                getter: getCOLLINSTRUCTIONS
+                setter: setCOLLINSTRUCTIONS
+            type: string
+        cONFIRMATIONEMAILADDRESS:
+            expose: true
+            access_type: public_method
+            serialized_name: CONFIRMATIONEMAILADDRESS
+            accessor:
+                getter: getCONFIRMATIONEMAILADDRESS
+                setter: setCONFIRMATIONEMAILADDRESS
+            type: string

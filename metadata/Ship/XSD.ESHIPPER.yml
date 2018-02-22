@@ -1,0 +1,27 @@
+TNTExpressConnect\Ship\XSD\ESHIPPER:
+    xml_root_name: ESHIPPER
+    properties:
+        lOGIN:
+            expose: true
+            access_type: public_method
+            serialized_name: LOGIN
+            accessor:
+                getter: getLOGIN
+                setter: setLOGIN
+            type: TNTExpressConnect\Ship\XSD\LOGIN
+        cONSIGNMENTBATCH:
+            expose: true
+            access_type: public_method
+            serialized_name: CONSIGNMENTBATCH
+            accessor:
+                getter: getCONSIGNMENTBATCH
+                setter: setCONSIGNMENTBATCH
+            type: TNTExpressConnect\Ship\XSD\CONSIGNMENTBATCH
+        aCTIVITY:
+            expose: true
+            access_type: public_method
+            serialized_name: ACTIVITY
+            accessor:
+                getter: getACTIVITY
+                setter: setACTIVITY
+            type: TNTExpressConnect\Ship\XSD\ACTIVITY

@@ -1,0 +1,67 @@
+TNTExpressConnect\Ship\XSD\PRICE:
+    xml_root_name: PRICE
+    properties:
+        rATEID:
+            expose: true
+            access_type: public_method
+            serialized_name: RATEID
+            accessor:
+                getter: getRATEID
+                setter: setRATEID
+            type: string
+        sERVICE:
+            expose: true
+            access_type: public_method
+            serialized_name: SERVICE
+            accessor:
+                getter: getSERVICE
+                setter: setSERVICE
+            type: string
+        sERVICEDESC:
+            expose: true
+            access_type: public_method
+            serialized_name: SERVICEDESC
+            accessor:
+                getter: getSERVICEDESC
+                setter: setSERVICEDESC
+            type: string
+        oPTION:
+            expose: true
+            access_type: public_method
+            serialized_name: OPTION
+            accessor:
+                getter: getOPTION
+                setter: setOPTION
+            type: string
+        oPTIONDESC:
+            expose: true
+            access_type: public_method
+            serialized_name: OPTIONDESC
+            accessor:
+                getter: getOPTIONDESC
+                setter: setOPTIONDESC
+            type: string
+        cURRENCY:
+            expose: true
+            access_type: public_method
+            serialized_name: CURRENCY
+            accessor:
+                getter: getCURRENCY
+                setter: setCURRENCY
+            type: string
+        rATE:
+            expose: true
+            access_type: public_method
+            serialized_name: RATE
+            accessor:
+                getter: getRATE
+                setter: setRATE
+            type: float
+        rESULT:
+            expose: true
+            access_type: public_method
+            serialized_name: RESULT
+            accessor:
+                getter: getRESULT
+                setter: setRESULT
+            type: string

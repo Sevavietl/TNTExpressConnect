@@ -1,0 +1,59 @@
+TNTExpressConnect\Ship\XSD\PRINT:
+    xml_root_name: PRINT
+    properties:
+        rEQUIRED:
+            expose: true
+            access_type: public_method
+            serialized_name: REQUIRED
+            accessor:
+                getter: getREQUIRED
+                setter: setREQUIRED
+            type: TNTExpressConnect\Ship\XSD\REQUIRED
+        cONNOTE:
+            expose: true
+            access_type: public_method
+            serialized_name: CONNOTE
+            accessor:
+                getter: getCONNOTE
+                setter: setCONNOTE
+            type: TNTExpressConnect\Ship\XSD\CONNOTE
+        lABEL:
+            expose: true
+            access_type: public_method
+            serialized_name: LABEL
+            accessor:
+                getter: getLABEL
+                setter: setLABEL
+            type: TNTExpressConnect\Ship\XSD\LABEL
+        mANIFEST:
+            expose: true
+            access_type: public_method
+            serialized_name: MANIFEST
+            accessor:
+                getter: getMANIFEST
+                setter: setMANIFEST
+            type: TNTExpressConnect\Ship\XSD\MANIFEST
+        iNVOICE:
+            expose: true
+            access_type: public_method
+            serialized_name: INVOICE
+            accessor:
+                getter: getINVOICE
+                setter: setINVOICE
+            type: TNTExpressConnect\Ship\XSD\INVOICE
+        eMAILTO:
+            expose: true
+            access_type: public_method
+            serialized_name: EMAILTO
+            accessor:
+                getter: getEMAILTO
+                setter: setEMAILTO
+            type: TNTExpressConnect\Ship\XSD\EMAILTO
+        eMAILFROM:
+            expose: true
+            access_type: public_method
+            serialized_name: EMAILFROM
+            accessor:
+                getter: getEMAILFROM
+                setter: setEMAILFROM
+            type: string

@@ -1,0 +1,35 @@
+TNTExpressConnect\Ship\XSD\ParseError:
+    xml_root_name: parse_error
+    properties:
+        errorReason:
+            expose: true
+            access_type: public_method
+            serialized_name: error_reason
+            accessor:
+                getter: getErrorReason
+                setter: setErrorReason
+            type: string
+        errorLine:
+            expose: true
+            access_type: public_method
+            serialized_name: error_line
+            accessor:
+                getter: getErrorLine
+                setter: setErrorLine
+            type: string
+        errorLinepos:
+            expose: true
+            access_type: public_method
+            serialized_name: error_linepos
+            accessor:
+                getter: getErrorLinepos
+                setter: setErrorLinepos
+            type: string
+        errorSrcText:
+            expose: true
+            access_type: public_method
+            serialized_name: error_srcText
+            accessor:
+                getter: getErrorSrcText
+                setter: setErrorSrcText
+            type: string

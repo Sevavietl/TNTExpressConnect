@@ -1,0 +1,123 @@
+TNTExpressConnect\Ship\XSD\SENDER:
+    xml_root_name: SENDER
+    properties:
+        cOMPANYNAME:
+            expose: true
+            access_type: public_method
+            serialized_name: COMPANYNAME
+            accessor:
+                getter: getCOMPANYNAME
+                setter: setCOMPANYNAME
+            type: string
+        sTREETADDRESS1:
+            expose: true
+            access_type: public_method
+            serialized_name: STREETADDRESS1
+            accessor:
+                getter: getSTREETADDRESS1
+                setter: setSTREETADDRESS1
+            type: string
+        sTREETADDRESS2:
+            expose: true
+            access_type: public_method
+            serialized_name: STREETADDRESS2
+            accessor:
+                getter: getSTREETADDRESS2
+                setter: setSTREETADDRESS2
+            type: string
+        sTREETADDRESS3:
+            expose: true
+            access_type: public_method
+            serialized_name: STREETADDRESS3
+            accessor:
+                getter: getSTREETADDRESS3
+                setter: setSTREETADDRESS3
+            type: string
+        cITY:
+            expose: true
+            access_type: public_method
+            serialized_name: CITY
+            accessor:
+                getter: getCITY
+                setter: setCITY
+            type: string
+        pROVINCE:
+            expose: true
+            access_type: public_method
+            serialized_name: PROVINCE
+            accessor:
+                getter: getPROVINCE
+                setter: setPROVINCE
+            type: string
+        pOSTCODE:
+            expose: true
+            access_type: public_method
+            serialized_name: POSTCODE
+            accessor:
+                getter: getPOSTCODE
+                setter: setPOSTCODE
+            type: string
+        cOUNTRY:
+            expose: true
+            access_type: public_method
+            serialized_name: COUNTRY
+            accessor:
+                getter: getCOUNTRY
+                setter: setCOUNTRY
+            type: string
+        aCCOUNT:
+            expose: true
+            access_type: public_method
+            serialized_name: ACCOUNT
+            accessor:
+                getter: getACCOUNT
+                setter: setACCOUNT
+            type: string
+        vAT:
+            expose: true
+            access_type: public_method
+            serialized_name: VAT
+            accessor:
+                getter: getVAT
+                setter: setVAT
+            type: string
+        cONTACTNAME:
+            expose: true
+            access_type: public_method
+            serialized_name: CONTACTNAME
+            accessor:
+                getter: getCONTACTNAME
+                setter: setCONTACTNAME
+            type: string
+        cONTACTDIALCODE:
+            expose: true
+            access_type: public_method
+            serialized_name: CONTACTDIALCODE
+            accessor:
+                getter: getCONTACTDIALCODE
+                setter: setCONTACTDIALCODE
+            type: string
+        cONTACTTELEPHONE:
+            expose: true
+            access_type: public_method
+            serialized_name: CONTACTTELEPHONE
+            accessor:
+                getter: getCONTACTTELEPHONE
+                setter: setCONTACTTELEPHONE
+            type: string
+        cONTACTEMAIL:
+            expose: true
+            access_type: public_method
+            serialized_name: CONTACTEMAIL
+            accessor:
+                getter: getCONTACTEMAIL
+                setter: setCONTACTEMAIL
+            type: string
+        cOLLECTION:
+            expose: true
+            access_type: public_method
+            serialized_name: COLLECTION
+            accessor:
+                getter: getCOLLECTION
+                setter: setCOLLECTION
+            type: TNTExpressConnect\Ship\XSD\COLLECTION

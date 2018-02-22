@@ -1,0 +1,67 @@
+TNTExpressConnect\Ship\XSD\ARTICLE:
+    xml_root_name: ARTICLE
+    properties:
+        iTEMS:
+            expose: true
+            access_type: public_method
+            serialized_name: ITEMS
+            accessor:
+                getter: getITEMS
+                setter: setITEMS
+            type: integer
+        dESCRIPTION:
+            expose: true
+            access_type: public_method
+            serialized_name: DESCRIPTION
+            accessor:
+                getter: getDESCRIPTION
+                setter: setDESCRIPTION
+            type: string
+        wEIGHT:
+            expose: true
+            access_type: public_method
+            serialized_name: WEIGHT
+            accessor:
+                getter: getWEIGHT
+                setter: setWEIGHT
+            type: float
+        iNVOICEVALUE:
+            expose: true
+            access_type: public_method
+            serialized_name: INVOICEVALUE
+            accessor:
+                getter: getINVOICEVALUE
+                setter: setINVOICEVALUE
+            type: float
+        iNVOICEDESC:
+            expose: true
+            access_type: public_method
+            serialized_name: INVOICEDESC
+            accessor:
+                getter: getINVOICEDESC
+                setter: setINVOICEDESC
+            type: string
+        hTS:
+            expose: true
+            access_type: public_method
+            serialized_name: HTS
+            accessor:
+                getter: getHTS
+                setter: setHTS
+            type: string
+        cOUNTRY:
+            expose: true
+            access_type: public_method
+            serialized_name: COUNTRY
+            accessor:
+                getter: getCOUNTRY
+                setter: setCOUNTRY
+            type: string
+        eMRN:
+            expose: true
+            access_type: public_method
+            serialized_name: EMRN
+            accessor:
+                getter: getEMRN
+                setter: setEMRN
+            type: string
