@@ -44,7 +44,7 @@ TNTExpressConnect\Ship\XSD\ACTIVITY:
             accessor:
                 getter: getPRINT
                 setter: setPRINT
-            type: TNTExpressConnect\Ship\XSD\PRINT
+            type: TNTExpressConnect\Ship\XSD\PRINTXsd
         sHOWGROUPCODE:
             expose: true
             access_type: public_method

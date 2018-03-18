@@ -9,290 +9,65 @@ class BOOK
 {
 
     /**
-     * @property string $eMAILREQD
+     * @property \TNTExpressConnect\Ship\XSD\CONSIGNMENT[] $cONSIGNMENT
      */
-    private $eMAILREQD = null;
-
-    /**
-     * @property string $showBookingRef
-     */
-    private $showBookingRef = null;
-
-    /**
-     * @property string $faxNumber
-     */
-    private $faxNumber = null;
-
-    /**
-     * @property string $languageId
-     */
-    private $languageId = null;
-
-    /**
-     * @property string $printAtDepot
-     */
-    private $printAtDepot = null;
-
-    /**
-     * @property string $gROUPCODE
-     */
-    private $gROUPCODE = null;
-
-    /**
-     * @property string[] $cONREF
-     */
-    private $cONREF = array(
+    private $cONSIGNMENT = array(
         
     );
 
     /**
-     * @property string[] $cONNUMBER
-     */
-    private $cONNUMBER = array(
-        
-    );
-
-    /**
-     * Gets as eMAILREQD
+     * Adds as cONSIGNMENT
      *
-     * @return string
-     */
-    public function getEMAILREQD()
-    {
-        return $this->eMAILREQD;
-    }
-
-    /**
-     * Sets a new eMAILREQD
-     *
-     * @param string $eMAILREQD
      * @return self
+     * @param \TNTExpressConnect\Ship\XSD\CONSIGNMENT $cONSIGNMENT
      */
-    public function setEMAILREQD($eMAILREQD)
+    public function addToCONSIGNMENT(\TNTExpressConnect\Ship\XSD\CONSIGNMENT $cONSIGNMENT)
     {
-        $this->eMAILREQD = $eMAILREQD;
+        $this->cONSIGNMENT[] = $cONSIGNMENT;
         return $this;
     }
 
     /**
-     * Gets as showBookingRef
-     *
-     * @return string
-     */
-    public function getShowBookingRef()
-    {
-        return $this->showBookingRef;
-    }
-
-    /**
-     * Sets a new showBookingRef
-     *
-     * @param string $showBookingRef
-     * @return self
-     */
-    public function setShowBookingRef($showBookingRef)
-    {
-        $this->showBookingRef = $showBookingRef;
-        return $this;
-    }
-
-    /**
-     * Gets as faxNumber
-     *
-     * @return string
-     */
-    public function getFaxNumber()
-    {
-        return $this->faxNumber;
-    }
-
-    /**
-     * Sets a new faxNumber
-     *
-     * @param string $faxNumber
-     * @return self
-     */
-    public function setFaxNumber($faxNumber)
-    {
-        $this->faxNumber = $faxNumber;
-        return $this;
-    }
-
-    /**
-     * Gets as languageId
-     *
-     * @return string
-     */
-    public function getLanguageId()
-    {
-        return $this->languageId;
-    }
-
-    /**
-     * Sets a new languageId
-     *
-     * @param string $languageId
-     * @return self
-     */
-    public function setLanguageId($languageId)
-    {
-        $this->languageId = $languageId;
-        return $this;
-    }
-
-    /**
-     * Gets as printAtDepot
-     *
-     * @return string
-     */
-    public function getPrintAtDepot()
-    {
-        return $this->printAtDepot;
-    }
-
-    /**
-     * Sets a new printAtDepot
-     *
-     * @param string $printAtDepot
-     * @return self
-     */
-    public function setPrintAtDepot($printAtDepot)
-    {
-        $this->printAtDepot = $printAtDepot;
-        return $this;
-    }
-
-    /**
-     * Gets as gROUPCODE
-     *
-     * @return string
-     */
-    public function getGROUPCODE()
-    {
-        return $this->gROUPCODE;
-    }
-
-    /**
-     * Sets a new gROUPCODE
-     *
-     * @param string $gROUPCODE
-     * @return self
-     */
-    public function setGROUPCODE($gROUPCODE)
-    {
-        $this->gROUPCODE = $gROUPCODE;
-        return $this;
-    }
-
-    /**
-     * Adds as cONREF
-     *
-     * @return self
-     * @param string $cONREF
-     */
-    public function addToCONREF($cONREF)
-    {
-        $this->cONREF[] = $cONREF;
-        return $this;
-    }
-
-    /**
-     * isset cONREF
+     * isset cONSIGNMENT
      *
      * @param scalar $index
      * @return boolean
      */
-    public function issetCONREF($index)
+    public function issetCONSIGNMENT($index)
     {
-        return isset($this->cONREF[$index]);
+        return isset($this->cONSIGNMENT[$index]);
     }
 
     /**
-     * unset cONREF
+     * unset cONSIGNMENT
      *
      * @param scalar $index
      * @return void
      */
-    public function unsetCONREF($index)
+    public function unsetCONSIGNMENT($index)
     {
-        unset($this->cONREF[$index]);
+        unset($this->cONSIGNMENT[$index]);
     }
 
     /**
-     * Gets as cONREF
+     * Gets as cONSIGNMENT
      *
-     * @return string[]
+     * @return \TNTExpressConnect\Ship\XSD\CONSIGNMENT[]
      */
-    public function getCONREF()
+    public function getCONSIGNMENT()
     {
-        return $this->cONREF;
+        return $this->cONSIGNMENT;
     }
 
     /**
-     * Sets a new cONREF
+     * Sets a new cONSIGNMENT
      *
-     * @param string $cONREF
+     * @param \TNTExpressConnect\Ship\XSD\CONSIGNMENT[] $cONSIGNMENT
      * @return self
      */
-    public function setCONREF(array $cONREF)
+    public function setCONSIGNMENT(array $cONSIGNMENT)
     {
-        $this->cONREF = $cONREF;
-        return $this;
-    }
-
-    /**
-     * Adds as cONNUMBER
-     *
-     * @return self
-     * @param string $cONNUMBER
-     */
-    public function addToCONNUMBER($cONNUMBER)
-    {
-        $this->cONNUMBER[] = $cONNUMBER;
-        return $this;
-    }
-
-    /**
-     * isset cONNUMBER
-     *
-     * @param scalar $index
-     * @return boolean
-     */
-    public function issetCONNUMBER($index)
-    {
-        return isset($this->cONNUMBER[$index]);
-    }
-
-    /**
-     * unset cONNUMBER
-     *
-     * @param scalar $index
-     * @return void
-     */
-    public function unsetCONNUMBER($index)
-    {
-        unset($this->cONNUMBER[$index]);
-    }
-
-    /**
-     * Gets as cONNUMBER
-     *
-     * @return string[]
-     */
-    public function getCONNUMBER()
-    {
-        return $this->cONNUMBER;
-    }
-
-    /**
-     * Sets a new cONNUMBER
-     *
-     * @param string $cONNUMBER
-     * @return self
-     */
-    public function setCONNUMBER(array $cONNUMBER)
-    {
-        $this->cONNUMBER = $cONNUMBER;
+        $this->cONSIGNMENT = $cONSIGNMENT;
         return $this;
     }
 

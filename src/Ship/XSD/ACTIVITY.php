@@ -29,7 +29,7 @@ class ACTIVITY
     private $sHIP = null;
 
     /**
-     * @property \TNTExpressConnect\Ship\XSD\PRINT $pRINT
+     * @property \TNTExpressConnect\Ship\XSD\PRINTXsd $pRINT
      */
     private $pRINT = null;
 
@@ -163,7 +163,7 @@ class ACTIVITY
     /**
      * Gets as pRINT
      *
-     * @return \TNTExpressConnect\Ship\XSD\PRINT
+     * @return \TNTExpressConnect\Ship\XSD\PRINTXsd
      */
     public function getPRINT()
     {
@@ -173,10 +173,10 @@ class ACTIVITY
     /**
      * Sets a new pRINT
      *
-     * @param \TNTExpressConnect\Ship\XSD\PRINT $pRINT
+     * @param \TNTExpressConnect\Ship\XSD\PRINTXsd $pRINT
      * @return self
      */
-    public function setPRINT(\TNTExpressConnect\Ship\XSD\PRINT $pRINT)
+    public function setPRINT(\TNTExpressConnect\Ship\XSD\PRINTXsd $pRINT)
     {
         $this->pRINT = $pRINT;
         return $this;

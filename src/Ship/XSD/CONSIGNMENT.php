@@ -14,14 +14,24 @@ class CONSIGNMENT
     private $cONREF = null;
 
     /**
-     * @property \TNTExpressConnect\Ship\XSD\DETAILS $dETAILS
-     */
-    private $dETAILS = null;
-
-    /**
      * @property string $cONNUMBER
      */
     private $cONNUMBER = null;
+
+    /**
+     * @property string $sUCCESS
+     */
+    private $sUCCESS = null;
+
+    /**
+     * @property string $fIRSTTIMETRADER
+     */
+    private $fIRSTTIMETRADER = null;
+
+    /**
+     * @property string $bOOKINGREF
+     */
+    private $bOOKINGREF = null;
 
     /**
      * Gets as cONREF
@@ -46,28 +56,6 @@ class CONSIGNMENT
     }
 
     /**
-     * Gets as dETAILS
-     *
-     * @return \TNTExpressConnect\Ship\XSD\DETAILS
-     */
-    public function getDETAILS()
-    {
-        return $this->dETAILS;
-    }
-
-    /**
-     * Sets a new dETAILS
-     *
-     * @param \TNTExpressConnect\Ship\XSD\DETAILS $dETAILS
-     * @return self
-     */
-    public function setDETAILS(\TNTExpressConnect\Ship\XSD\DETAILS $dETAILS)
-    {
-        $this->dETAILS = $dETAILS;
-        return $this;
-    }
-
-    /**
      * Gets as cONNUMBER
      *
      * @return string
@@ -86,6 +74,72 @@ class CONSIGNMENT
     public function setCONNUMBER($cONNUMBER)
     {
         $this->cONNUMBER = $cONNUMBER;
+        return $this;
+    }
+
+    /**
+     * Gets as sUCCESS
+     *
+     * @return string
+     */
+    public function getSUCCESS()
+    {
+        return $this->sUCCESS;
+    }
+
+    /**
+     * Sets a new sUCCESS
+     *
+     * @param string $sUCCESS
+     * @return self
+     */
+    public function setSUCCESS($sUCCESS)
+    {
+        $this->sUCCESS = $sUCCESS;
+        return $this;
+    }
+
+    /**
+     * Gets as fIRSTTIMETRADER
+     *
+     * @return string
+     */
+    public function getFIRSTTIMETRADER()
+    {
+        return $this->fIRSTTIMETRADER;
+    }
+
+    /**
+     * Sets a new fIRSTTIMETRADER
+     *
+     * @param string $fIRSTTIMETRADER
+     * @return self
+     */
+    public function setFIRSTTIMETRADER($fIRSTTIMETRADER)
+    {
+        $this->fIRSTTIMETRADER = $fIRSTTIMETRADER;
+        return $this;
+    }
+
+    /**
+     * Gets as bOOKINGREF
+     *
+     * @return string
+     */
+    public function getBOOKINGREF()
+    {
+        return $this->bOOKINGREF;
+    }
+
+    /**
+     * Sets a new bOOKINGREF
+     *
+     * @param string $bOOKINGREF
+     * @return self
+     */
+    public function setBOOKINGREF($bOOKINGREF)
+    {
+        $this->bOOKINGREF = $bOOKINGREF;
         return $this;
     }
 

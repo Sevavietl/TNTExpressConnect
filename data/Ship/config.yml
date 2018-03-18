@@ -5,6 +5,7 @@ xsd2php:
     'TNTExpressConnect\Ship\XSD': src/Ship/XSD
   destinations_jms:
     'TNTExpressConnect\Ship': metadata/Ship
+  naming_strategy: long
   aliases: 
     'http://www.w3.org/2001/XMLSchema':
       anyType: 'TNTExpressConnect\Serializer\AnyType'

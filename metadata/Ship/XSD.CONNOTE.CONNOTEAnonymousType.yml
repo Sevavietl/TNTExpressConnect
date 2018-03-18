@@ -1,4 +1,4 @@
-TNTExpressConnect\Ship\XSD\CONNOTE\CONNOTEAType:
+TNTExpressConnect\Ship\XSD\CONNOTE\CONNOTEAnonymousType:
     properties:
         eRROR:
             expose: true

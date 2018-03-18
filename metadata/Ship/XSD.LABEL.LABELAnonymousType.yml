@@ -1,4 +1,4 @@
-TNTExpressConnect\Ship\XSD\INVOICE\INVOICEAType:
+TNTExpressConnect\Ship\XSD\LABEL\LABELAnonymousType:
     properties:
         eRROR:
             expose: true

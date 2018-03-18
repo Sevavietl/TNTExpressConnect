@@ -1,4 +1,4 @@
-TNTExpressConnect\Ship\XSD\PRINT:
+TNTExpressConnect\Ship\XSD\PRINTXsd:
     xml_root_name: PRINT
     properties:
         rEQUIRED:

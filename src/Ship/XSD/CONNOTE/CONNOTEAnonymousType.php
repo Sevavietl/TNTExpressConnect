@@ -3,9 +3,9 @@
 namespace TNTExpressConnect\Ship\XSD\CONNOTE;
 
 /**
- * Class representing CONNOTEAType
+ * Class representing CONNOTEAnonymousType
  */
-class CONNOTEAType
+class CONNOTEAnonymousType
 {
 
     /**

@@ -1,4 +1,4 @@
-TNTExpressConnect\Ship\XSD\BOOK\BOOKAType:
+TNTExpressConnect\Ship\XSD\BOOK\BOOKAnonymousType:
     properties:
         cONSIGNMENT:
             expose: true

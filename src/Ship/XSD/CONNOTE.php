@@ -9,65 +9,128 @@ class CONNOTE
 {
 
     /**
-     * @property \TNTExpressConnect\Ship\XSD\ERROR[] $eRROR
+     * @property string[] $cONREF
      */
-    private $eRROR = array(
+    private $cONREF = array(
         
     );
 
     /**
-     * Adds as eRROR
+     * @property string[] $cONNUMBER
+     */
+    private $cONNUMBER = array(
+        
+    );
+
+    /**
+     * Adds as cONREF
      *
      * @return self
-     * @param \TNTExpressConnect\Ship\XSD\ERROR $eRROR
+     * @param string $cONREF
      */
-    public function addToERROR(\TNTExpressConnect\Ship\XSD\ERROR $eRROR)
+    public function addToCONREF($cONREF)
     {
-        $this->eRROR[] = $eRROR;
+        $this->cONREF[] = $cONREF;
         return $this;
     }
 
     /**
-     * isset eRROR
+     * isset cONREF
      *
      * @param scalar $index
      * @return boolean
      */
-    public function issetERROR($index)
+    public function issetCONREF($index)
     {
-        return isset($this->eRROR[$index]);
+        return isset($this->cONREF[$index]);
     }
 
     /**
-     * unset eRROR
+     * unset cONREF
      *
      * @param scalar $index
      * @return void
      */
-    public function unsetERROR($index)
+    public function unsetCONREF($index)
     {
-        unset($this->eRROR[$index]);
+        unset($this->cONREF[$index]);
     }
 
     /**
-     * Gets as eRROR
+     * Gets as cONREF
      *
-     * @return \TNTExpressConnect\Ship\XSD\ERROR[]
+     * @return string[]
      */
-    public function getERROR()
+    public function getCONREF()
     {
-        return $this->eRROR;
+        return $this->cONREF;
     }
 
     /**
-     * Sets a new eRROR
+     * Sets a new cONREF
      *
-     * @param \TNTExpressConnect\Ship\XSD\ERROR[] $eRROR
+     * @param string $cONREF
      * @return self
      */
-    public function setERROR(array $eRROR)
+    public function setCONREF(array $cONREF)
     {
-        $this->eRROR = $eRROR;
+        $this->cONREF = $cONREF;
+        return $this;
+    }
+
+    /**
+     * Adds as cONNUMBER
+     *
+     * @return self
+     * @param string $cONNUMBER
+     */
+    public function addToCONNUMBER($cONNUMBER)
+    {
+        $this->cONNUMBER[] = $cONNUMBER;
+        return $this;
+    }
+
+    /**
+     * isset cONNUMBER
+     *
+     * @param scalar $index
+     * @return boolean
+     */
+    public function issetCONNUMBER($index)
+    {
+        return isset($this->cONNUMBER[$index]);
+    }
+
+    /**
+     * unset cONNUMBER
+     *
+     * @param scalar $index
+     * @return void
+     */
+    public function unsetCONNUMBER($index)
+    {
+        unset($this->cONNUMBER[$index]);
+    }
+
+    /**
+     * Gets as cONNUMBER
+     *
+     * @return string[]
+     */
+    public function getCONNUMBER()
+    {
+        return $this->cONNUMBER;
+    }
+
+    /**
+     * Sets a new cONNUMBER
+     *
+     * @param string $cONNUMBER
+     * @return self
+     */
+    public function setCONNUMBER(array $cONNUMBER)
+    {
+        $this->cONNUMBER = $cONNUMBER;
         return $this;
     }
 

@@ -3,9 +3,9 @@
 namespace TNTExpressConnect\Ship\XSD\INVOICE;
 
 /**
- * Class representing INVOICEAType
+ * Class representing INVOICEAnonymousType
  */
-class INVOICEAType
+class INVOICEAnonymousType
 {
 
     /**

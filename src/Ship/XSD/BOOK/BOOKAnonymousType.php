@@ -3,9 +3,9 @@
 namespace TNTExpressConnect\Ship\XSD\BOOK;
 
 /**
- * Class representing BOOKAType
+ * Class representing BOOKAnonymousType
  */
-class BOOKAType
+class BOOKAnonymousType
 {
 
     /**

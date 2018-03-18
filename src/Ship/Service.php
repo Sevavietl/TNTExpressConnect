@@ -2,6 +2,7 @@
 namespace TNTExpressConnect\Ship;
 
 use TNTExpressConnect\AbstractService;
+use TNTExpressConnect\Ship\XSD\Document;
 
 class Service extends AbstractService
 {
@@ -13,13 +14,12 @@ class Service extends AbstractService
             'headers' => [
                 'Content-Type' => 'text/xml; charset=UTF8',
             ],
-            'auth' => [$this->getUsername(), $this->getPassword()],
             'body' => $this->serializer->serialize($xml)
         ]);
         
         return $this->serializer->deserialize(
             (string) $response->getBody(),
-            'TNTExpressConnect\Ship\XSD\Document'
+            Document::class
         );
     }
 }

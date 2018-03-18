@@ -1,11 +1,11 @@
 <?php
 
-namespace TNTExpressConnect\Ship\XSD\LABEL;
+namespace TNTExpressConnect\Ship\XSD\MANIFEST;
 
 /**
- * Class representing LABELAType
+ * Class representing MANIFESTAnonymousType
  */
-class LABELAType
+class MANIFESTAnonymousType
 {
 
     /**

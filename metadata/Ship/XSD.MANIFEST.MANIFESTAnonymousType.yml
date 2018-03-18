@@ -1,4 +1,4 @@
-TNTExpressConnect\Ship\XSD\LABEL\LABELAType:
+TNTExpressConnect\Ship\XSD\MANIFEST\MANIFESTAnonymousType:
     properties:
         eRROR:
             expose: true

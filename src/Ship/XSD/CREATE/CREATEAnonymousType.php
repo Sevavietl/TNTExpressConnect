@@ -3,9 +3,9 @@
 namespace TNTExpressConnect\Ship\XSD\CREATE;
 
 /**
- * Class representing CREATEAType
+ * Class representing CREATEAnonymousType
  */
-class CREATEAType
+class CREATEAnonymousType
 {
 
     /**

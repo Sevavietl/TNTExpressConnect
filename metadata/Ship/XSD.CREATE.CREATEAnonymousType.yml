@@ -1,4 +1,4 @@
-TNTExpressConnect\Ship\XSD\CREATE\CREATEAType:
+TNTExpressConnect\Ship\XSD\CREATE\CREATEAnonymousType:
     properties:
         cONREF:
             expose: true
