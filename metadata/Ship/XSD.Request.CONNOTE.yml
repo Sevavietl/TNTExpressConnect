@@ -1,0 +1,25 @@
+TNTExpressConnect\Ship\XSD\Request\CONNOTE:
+    xml_root_name: CONNOTE
+    properties:
+        cONREF:
+            expose: true
+            access_type: public_method
+            serialized_name: CONREF
+            accessor:
+                getter: getCONREF
+                setter: setCONREF
+            xml_list:
+                inline: true
+                entry_name: CONREF
+            type: array<string>
+        cONNUMBER:
+            expose: true
+            access_type: public_method
+            serialized_name: CONNUMBER
+            accessor:
+                getter: getCONNUMBER
+                setter: setCONNUMBER
+            xml_list:
+                inline: true
+                entry_name: CONNUMBER
+            type: array<string>

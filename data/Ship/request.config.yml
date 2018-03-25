@@ -1,0 +1,11 @@
+xsd2php:
+  namespaces:
+    '': 'TNTExpressConnect\Ship\XSD\Request'
+  destinations_php: 
+    'TNTExpressConnect\Ship\XSD\Request': src/Ship/XSD/Request
+  destinations_jms:
+    'TNTExpressConnect\Ship': metadata/Ship
+  aliases: 
+    'http://www.w3.org/2001/XMLSchema':
+      anyType: 'TNTExpressConnect\Serializer\AnyType'
+      anySimpleType: 'TNTExpressConnect\Serializer\AnyType'

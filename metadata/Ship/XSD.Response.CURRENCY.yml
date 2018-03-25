@@ -1,0 +1,11 @@
+TNTExpressConnect\Ship\XSD\Response\CURRENCY:
+    xml_root_name: CURRENCY
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string

@@ -1,0 +1,25 @@
+TNTExpressConnect\Ship\XSD\Response\RATE:
+    xml_root_name: RATE
+    properties:
+        eRROR:
+            expose: true
+            access_type: public_method
+            serialized_name: ERROR
+            accessor:
+                getter: getERROR
+                setter: setERROR
+            xml_list:
+                inline: true
+                entry_name: ERROR
+            type: array<TNTExpressConnect\Ship\XSD\Response\ERROR>
+        pRICE:
+            expose: true
+            access_type: public_method
+            serialized_name: PRICE
+            accessor:
+                getter: getPRICE
+                setter: setPRICE
+            xml_list:
+                inline: true
+                entry_name: PRICE
+            type: array<TNTExpressConnect\Ship\XSD\Response\PRICE>

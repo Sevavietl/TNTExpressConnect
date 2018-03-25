@@ -1,0 +1,3 @@
+TNTExpressConnect\Ship\XSD\Request\SHOWGROUPCODE:
+    xml_root_name: SHOW_GROUPCODE
+    properties: {  }

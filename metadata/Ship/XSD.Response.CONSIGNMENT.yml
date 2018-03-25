@@ -1,0 +1,43 @@
+TNTExpressConnect\Ship\XSD\Response\CONSIGNMENT:
+    xml_root_name: CONSIGNMENT
+    properties:
+        cONREF:
+            expose: true
+            access_type: public_method
+            serialized_name: CONREF
+            accessor:
+                getter: getCONREF
+                setter: setCONREF
+            type: string
+        cONNUMBER:
+            expose: true
+            access_type: public_method
+            serialized_name: CONNUMBER
+            accessor:
+                getter: getCONNUMBER
+                setter: setCONNUMBER
+            type: string
+        sUCCESS:
+            expose: true
+            access_type: public_method
+            serialized_name: SUCCESS
+            accessor:
+                getter: getSUCCESS
+                setter: setSUCCESS
+            type: string
+        fIRSTTIMETRADER:
+            expose: true
+            access_type: public_method
+            serialized_name: FIRSTTIMETRADER
+            accessor:
+                getter: getFIRSTTIMETRADER
+                setter: setFIRSTTIMETRADER
+            type: string
+        bOOKINGREF:
+            expose: true
+            access_type: public_method
+            serialized_name: BOOKINGREF
+            accessor:
+                getter: getBOOKINGREF
+                setter: setBOOKINGREF
+            type: string

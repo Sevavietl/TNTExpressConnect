@@ -1,0 +1,33 @@
+TNTExpressConnect\Ship\XSD\Request\MANIFEST:
+    xml_root_name: MANIFEST
+    properties:
+        gROUPCODE:
+            expose: true
+            access_type: public_method
+            serialized_name: GROUPCODE
+            accessor:
+                getter: getGROUPCODE
+                setter: setGROUPCODE
+            type: string
+        cONREF:
+            expose: true
+            access_type: public_method
+            serialized_name: CONREF
+            accessor:
+                getter: getCONREF
+                setter: setCONREF
+            xml_list:
+                inline: true
+                entry_name: CONREF
+            type: array<string>
+        cONNUMBER:
+            expose: true
+            access_type: public_method
+            serialized_name: CONNUMBER
+            accessor:
+                getter: getCONNUMBER
+                setter: setCONNUMBER
+            xml_list:
+                inline: true
+                entry_name: CONNUMBER
+            type: array<string>

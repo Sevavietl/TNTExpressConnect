@@ -1,0 +1,78 @@
+TNTExpressConnect\Ship\XSD\Response\PRINTXsd:
+    xml_root_name: PRINT
+    properties:
+        eRROR:
+            expose: true
+            access_type: public_method
+            serialized_name: ERROR
+            accessor:
+                getter: getERROR
+                setter: setERROR
+            xml_list:
+                inline: true
+                entry_name: ERROR
+            type: array<TNTExpressConnect\Ship\XSD\Response\ERROR>
+        cONNOTE:
+            expose: true
+            access_type: public_method
+            serialized_name: CONNOTE
+            accessor:
+                getter: getCONNOTE
+                setter: setCONNOTE
+            type: array<TNTExpressConnect\Ship\XSD\Response\ERROR>
+            xml_list:
+                inline: false
+                entry_name: ERROR
+                skip_when_empty: true
+        lABEL:
+            expose: true
+            access_type: public_method
+            serialized_name: LABEL
+            accessor:
+                getter: getLABEL
+                setter: setLABEL
+            type: array<TNTExpressConnect\Ship\XSD\Response\ERROR>
+            xml_list:
+                inline: false
+                entry_name: ERROR
+                skip_when_empty: true
+        mANIFEST:
+            expose: true
+            access_type: public_method
+            serialized_name: MANIFEST
+            accessor:
+                getter: getMANIFEST
+                setter: setMANIFEST
+            type: array<TNTExpressConnect\Ship\XSD\Response\ERROR>
+            xml_list:
+                inline: false
+                entry_name: ERROR
+                skip_when_empty: true
+        iNVOICE:
+            expose: true
+            access_type: public_method
+            serialized_name: INVOICE
+            accessor:
+                getter: getINVOICE
+                setter: setINVOICE
+            type: array<TNTExpressConnect\Ship\XSD\Response\ERROR>
+            xml_list:
+                inline: false
+                entry_name: ERROR
+                skip_when_empty: true
+        eMAILTO:
+            expose: true
+            access_type: public_method
+            serialized_name: EMAILTO
+            accessor:
+                getter: getEMAILTO
+                setter: setEMAILTO
+            type: string
+        eMAILFROM:
+            expose: true
+            access_type: public_method
+            serialized_name: EMAILFROM
+            accessor:
+                getter: getEMAILFROM
+                setter: setEMAILFROM
+            type: string

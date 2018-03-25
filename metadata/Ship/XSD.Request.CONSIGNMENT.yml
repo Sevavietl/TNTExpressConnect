@@ -1,0 +1,27 @@
+TNTExpressConnect\Ship\XSD\Request\CONSIGNMENT:
+    xml_root_name: CONSIGNMENT
+    properties:
+        cONREF:
+            expose: true
+            access_type: public_method
+            serialized_name: CONREF
+            accessor:
+                getter: getCONREF
+                setter: setCONREF
+            type: string
+        dETAILS:
+            expose: true
+            access_type: public_method
+            serialized_name: DETAILS
+            accessor:
+                getter: getDETAILS
+                setter: setDETAILS
+            type: TNTExpressConnect\Ship\XSD\Request\DETAILS
+        cONNUMBER:
+            expose: true
+            access_type: public_method
+            serialized_name: CONNUMBER
+            accessor:
+                getter: getCONNUMBER
+                setter: setCONNUMBER
+            type: string

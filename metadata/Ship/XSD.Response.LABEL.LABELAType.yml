@@ -1,0 +1,13 @@
+TNTExpressConnect\Ship\XSD\Response\LABEL\LABELAType:
+    properties:
+        eRROR:
+            expose: true
+            access_type: public_method
+            serialized_name: ERROR
+            accessor:
+                getter: getERROR
+                setter: setERROR
+            xml_list:
+                inline: true
+                entry_name: ERROR
+            type: array<TNTExpressConnect\Ship\XSD\Response\ERROR>

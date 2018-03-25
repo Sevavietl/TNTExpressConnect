@@ -1,0 +1,13 @@
+TNTExpressConnect\Ship\XSD\Request\CREATE\CREATEAType:
+    properties:
+        cONREF:
+            expose: true
+            access_type: public_method
+            serialized_name: CONREF
+            accessor:
+                getter: getCONREF
+                setter: setCONREF
+            xml_list:
+                inline: true
+                entry_name: CONREF
+            type: array<string>

@@ -1,0 +1,11 @@
+TNTExpressConnect\Ship\XSD\Request\APPVERSION:
+    xml_root_name: APPVERSION
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float

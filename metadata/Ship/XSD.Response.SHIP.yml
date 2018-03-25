@@ -1,0 +1,25 @@
+TNTExpressConnect\Ship\XSD\Response\SHIP:
+    xml_root_name: SHIP
+    properties:
+        eRROR:
+            expose: true
+            access_type: public_method
+            serialized_name: ERROR
+            accessor:
+                getter: getERROR
+                setter: setERROR
+            xml_list:
+                inline: true
+                entry_name: ERROR
+            type: array<TNTExpressConnect\Ship\XSD\Response\ERROR>
+        cONSIGNMENT:
+            expose: true
+            access_type: public_method
+            serialized_name: CONSIGNMENT
+            accessor:
+                getter: getCONSIGNMENT
+                setter: setCONSIGNMENT
+            xml_list:
+                inline: true
+                entry_name: CONSIGNMENT
+            type: array<TNTExpressConnect\Ship\XSD\Response\CONSIGNMENT>
