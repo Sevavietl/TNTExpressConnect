@@ -21,6 +21,7 @@ class Serializer implements SerializerInterface
 
     const SERVICES = [
         'Price',
+        'Ship',
         'Tracking'
     ];
     
