@@ -11,10 +11,12 @@ class Service extends AbstractService
     {
         $response = $this->client->request('POST', static::URL, [
             'headers' => [
-                'Content-Type' => 'text/xml; charset=UTF8',
+                'Content-Type' => 'application/x-www-form-urlencoded; charset=UTF8',
             ],
             'auth' => [$this->getUsername(), $this->getPassword()],
-            'body' => $this->serializer->serialize($xml)
+            'form_params' => [
+                'xml_in' => $this->serializer->serialize($xml)
+            ]
         ]);
         
         return $this->serializer->deserialize(
