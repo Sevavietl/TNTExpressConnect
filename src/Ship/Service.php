@@ -14,22 +14,23 @@ class Service extends AbstractService
     public function send($xml)
     {
         $response = $this->sendRequest($this->serializer->serialize($xml));
-
         $response =  preg_replace("/[^0-9]/", "", $response);
-
+        
         return $response;
     }
 
     public function getResult(string $accessKey)
     {
         $response = $this->sendRequest('GET_RESULT:' . $accessKey);
-
+        $this->validateResponse($response);
+        
         return $this->serializer->deserialize((string) $response, Document::class);
     }
 
     public function getConnote(string $accessKey)
     {
         $response = $this->sendRequest('GET_CONNOTE:' . $accessKey);
+        $this->validateResponse($response);
 
         return $this->serializer->deserialize((string) $response, \TNTExpressConnect\Ship\XSD\Response\Consig::class);
     }
@@ -37,7 +38,8 @@ class Service extends AbstractService
     public function getLabel(string $accessKey)
     {
         $response = $this->sendRequest('GET_LABEL:' . $accessKey);
-
+        $this->validateResponse($response);
+        
         return $response;
     }
 
@@ -51,17 +53,18 @@ class Service extends AbstractService
                 'xml_in' => $xmlIn
             ]
         ])->getBody();
-
+        
+        return $response;
+    }
+    
+    private function validateResponse($response) {
         try {
             /** @var RuntimeError $runtimeError */
-            if (
-            $runtimeError = $this->serializer->deserialize($response, RuntimeError::class)
-            ) {
+            $runtimeError = $this->serializer->deserialize($response, RuntimeError::class);
+            if ($runtimeError && !empty($runtimeError->getErrorReason())) {
                 throw new RuntimeErrorException($runtimeError->getErrorReason());
             }
         } catch (XmlErrorException $e) {
         }
-
-        return $response;
     }
 }
